@@ -1,0 +1,52 @@
+body {
+  background-color:azure;
+}
+
+.square-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px;
+}
+
+.square-item {
+  width: 100px;
+  height: 100px;
+}
+
+.square-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.selected {
+  border: 5px solid #FFFF00;
+}
+
+.submit-button {
+  margin: 20px auto;
+  display: flex;
+  background-color: gray;
+  color: #FFFFFF;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+}
+
+.result-message {
+  text-align: center;
+}
+
+.result-message.success {
+  color: #25C633;
+}
+
+.result-message.error {
+  color:#CE1111;
+}
