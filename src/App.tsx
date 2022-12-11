@@ -5,7 +5,7 @@ import {
   initSquareColors,
   isAllBlueSquaresSelected,
   isSquareSelected,
-} from "./utils/utils";
+} from "./utils";
 
 function App() {
   const [selectedSquares, setSelectedSquares] = useState<SelectedSquare[]>([]);
